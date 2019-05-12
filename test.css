@@ -1,0 +1,23 @@
+@page {
+    width: 8.5in;
+    height: 11in;
+    padding: 0.2in;
+}
+img {
+    height: 0.3in;
+    width: 2in;
+    display: inline-block;
+    vertical-align: middle;
+    image-rendering: auto;
+}
+.label {
+    height: 1.2in;
+    font-family: Verdana;
+    font-weight: bold;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 12px;
+    border: 2px solid red;
+    padding: 0.15in;
+    margin: 0.08in;
+}
