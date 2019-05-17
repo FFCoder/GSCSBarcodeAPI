@@ -20,9 +20,9 @@ def writeLabels(excelFile, templateFile, stylesheet=None):
         print("Unknown Exception: Failed to load spreadsheet.")
         return False
 
-        records = dataframe.to_dict(orient='record')
-        label_writer = LabelWriter(templateFile, default_stylesheets=(stylesheet))
-        label_writer.write_labels(assets, target="export.pdf")
+    records = dataframe.to_dict(orient='record')
+    label_writer = LabelWriter(templateFile, default_stylesheet=stylesheet)
+    label_writer.write_labels(records, target="export.pdf")
     return True
     
 writeLabels("export.xlsx","template.html","style.css")
