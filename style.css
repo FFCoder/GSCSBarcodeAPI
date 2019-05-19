@@ -1,0 +1,24 @@
+@page {
+    width: 27mm;
+    height: 12mm;
+}
+
+#label {
+    display: flex;
+    flex-direction: column;
+}
+img {
+    height: 4mm;
+    margin-left: 07%;
+    display: inline-block;
+    image-rendering: pixelated;
+}
+span {
+    text-align: center;
+}
+#lTag {
+    font-size: 0.5em;
+}
+#mTag {
+    font-size: 0.4em;
+}
